@@ -64,6 +64,8 @@ Build a **clean, well-structured Power BI model** that:
 
 ## 📊 Dashboard Pages & Key Insights
 
+<img width="962" height="541" alt="image" src="https://github.com/user-attachments/assets/18816ca1-acb0-442b-9523-4d11282de348" />
+
 ### 1️⃣ National Crime Dashboard — Executive Summary
 
 **Purpose:**
@@ -88,6 +90,9 @@ Give a **single-page national overview** of crime in India (2001–2010).
 
 **📋 Area Ranking Table**
 - Total Cases, Composite Severity Index, Previous Year Cases, YoY % change and sparklines → quick benchmarking across states.
+
+<img width="960" height="602" alt="image" src="https://github.com/user-attachments/assets/3a4a4545-169b-48fa-9eb5-4e27db79fdcf" />
+
 
 ---
 
@@ -121,6 +126,8 @@ Zoom into **Crimes Against Women (CAW)** and child victims, plus backlog and jus
 **🗺 Women Safety Severity Index by Area**
 - Map visual combining CAW load, victim counts and conviction performance into a single severity score.
 
+<img width="642" height="652" alt="image" src="https://github.com/user-attachments/assets/bcac382c-b8a2-4dc9-a8ce-bc298d231c1b" />
+
 ---
 
 ### 3️⃣ Kidnapping, Murder & Rape — Comparative Analysis
@@ -153,6 +160,8 @@ Compare three serious violent crimes across **time, victim profile and geography
 **🧭 Top States by Rape, Kidnapping & Murder Victims**
 - Horizontal bars reveal states that are **heavily burdened across multiple serious offences**.
 
+<img width="638" height="651" alt="image" src="https://github.com/user-attachments/assets/a32e2ad3-3ee3-4a5b-8f4f-b88739929865" />
+
 ---
 
 ### 4️⃣ Economic & Financial Crime Overview
@@ -178,6 +187,8 @@ Track **serious fraud** losses, value distribution and **auto theft** trends.
 
 **🚗 Auto Theft Trend by Vehicle Group**
 - Line chart shows **steady rise in vehicle theft**, particularly for motor vehicles, tracking **urbanisation & vehicle growth**.
+
+<img width="478" height="565" alt="image" src="https://github.com/user-attachments/assets/057b1acd-b7b6-4379-b1b9-b899de06f975" />
 
 ---
 ### 5️⃣ Police Accountability, Rights & Capacity
@@ -210,6 +221,8 @@ Evaluate the **police system itself** – complaints, human-rights violations an
 
 **📋 Accountability & Capacity Scorecard**
 - Per-state table: complaints, accountability index, HRV metrics, housing coverage & infrastructure index → holistic view of **where both crime and system weaknesses cluster**.
+
+<img width="482" height="482" alt="image" src="https://github.com/user-attachments/assets/bcc10152-1ec3-4f15-a4b7-45c97f4709a1" />
 
 ---
 
