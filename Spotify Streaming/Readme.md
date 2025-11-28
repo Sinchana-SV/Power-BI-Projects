@@ -43,6 +43,7 @@ These KPIs give a quick snapshot of overall streaming activity.
 ---
 
 ### 🎵 Page 1 – Spotify Streaming Analysis (Overview)
+<img width="1325" height="745" alt="image" src="https://github.com/user-attachments/assets/7305b256-4ef1-4f0b-8284-0f09a825fbd0" />
 
 - **Top 10 Tracks (Bar Chart)**  
   Shows the 10 most played tracks by **play count**, helping identify the songs that are on repeat most often.
@@ -60,6 +61,7 @@ These KPIs give a quick snapshot of overall streaming activity.
 ---
 
 ### ⏱️ Page 2 – Listening Behaviour Over Time
+<img width="1322" height="746" alt="image" src="https://github.com/user-attachments/assets/acd689a3-8654-4bb0-829e-7736071eae3d" />
 
 - **Hours Played by Day (Donut Chart)**  
   Shows the distribution of total listening hours by **day of the week**  
