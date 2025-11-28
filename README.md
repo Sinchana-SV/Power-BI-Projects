@@ -15,7 +15,7 @@ Welcome to my **Power BI Analytics Portfolio** – a collection of interactive d
 |---|--------|--------|-----------------|
 | 1 | [🔍 National Crime in India (2001–2010)](#-1-national-crime-in-india-20012010) | Public Policy / Criminology | Multi-table modelling, composite indices, hotspot analysis, justice pipeline |
 | 2 | [🍦 Ice Cream Sales Analysis](#-2-ice-cream-sales-analysis) | Retail / Sales Analytics | Product mix analysis, seasonality, revenue trends, brand-style dashboarding |
-
+| 3 | [🎧 Spotify Streaming Analysis](https://github.com/Sinchana-SV/Power-BI-Projects/tree/main/Spotify%20Streaming) |Digital Media / Streaming Analytics | Converting timestamps to date, hour, and day-of-week, Aggregating minutes, hours, tracks and artists for each visual |
 ---
 
 ## 🧱 Common Tech Stack
@@ -114,6 +114,74 @@ Business teams struggle to answer questions like:
     - Focus **marketing spend**
     - Launch **new SKUs**
     - Consider **price changes or discontinuation**.
+
+---
+## 🎧3. Spotify Streaming Analysis
+<img width="697" height="465" alt="image" src="https://github.com/user-attachments/assets/5efb2514-4bbc-4a35-ab80-dca3da6a5071" />
+
+
+### ✅ Problem Statement
+
+Spotify provides detailed streaming history, but it usually sits in raw JSON/CSV files that are hard to interpret.  
+This dashboard was built to answer questions like:
+
+- How many **minutes and hours** have I actually spent listening to Spotify?
+- Which **tracks** and **artists** dominate my listening history?
+- On which **days of the week** and **times of day** do I listen the most?
+- Are there specific **dates** or periods where my listening spikes or drops?
+
+The goal is to turn personal listening data into clear, visual insights about **habits, favourites and time-of-day patterns**.
+
+---
+
+### 📊 Dashboard Highlights
+
+#### 1. Overview Page – *“Spotify Streaming Analysis”*
+
+- **KPI Cards**
+  - Total Minutes Played  
+  - Total Hours Played  
+  - Total Number of Tracks Played  
+  - Total Unique Artists  
+
+- **Top 10 Tracks (Bar Chart)**
+  - Ranks tracks by **play count** to show the songs on repeat most often.
+
+- **Top 10 Artists by Hours Played (Bar Chart)**
+  - Highlights artists with the highest **total listening time**, not just track count.
+
+- **Artist & Song Coverage (Table)**
+  - Lists each artist with the number of different songs played.  
+  - Useful to see who has both **depth (more tracks)** and **frequency (often played)**.
+
+---
+
+#### 2. Time Patterns Page – *“Listening Behaviour Over Time”*
+
+- **Hours Played by Day of Week (Donut Chart)**
+  - Breaks down listening by **Monday–Sunday** to reveal weekday vs weekend habits.
+
+- **Minutes Played by Time of Day (Bar Chart)**
+  - Shows total minutes for each **hour (0–23)** to identify morning, afternoon or late-night peaks.
+
+- **Minutes Played by Date (Line Chart)**
+  - Time-series of minutes listened per **calendar date**, helping spot binge days and quiet periods.
+
+- **Tracks & Time by Date (Table)**
+  - For each date:  
+    - Track Count  
+    - Total Minutes Played  
+    - Total Hours Played  
+  - Supports deeper drill-down into specific high-activity days.
+
+---
+
+### 🛠 Tech Notes
+
+- Built in **Power BI** using exported **Spotify Streaming History**.  
+- Power Query used for:
+  - Converting timestamps to **date, hour, and day-of-week**.
+  - Aggregating minutes, hours, tracks and artists for each visual.
 
 ---
 
